@@ -5,7 +5,6 @@ $(document).ready(function (){
     $.ajax({
       url:weatherUrl,
       dataType:'jsonp',
-      contentType:'application/json',
       success:function(weather){
         console.log(weather);
       }
